@@ -69,4 +69,4 @@ another app's data will be linked to the container.
 ## Interfaces to the outside
 
 Every app that exposes a web interface will be assigned a port number starting with 10001. 
-The web interface will then be available under https://<domainname>/<app-name>
+The web interface will then be available under https://\<domainname\>/\<app-name\>
