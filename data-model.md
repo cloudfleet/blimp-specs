@@ -66,6 +66,9 @@ All of these are part of the backup.
 Every app will expose an HTTP API to give other apps access to its data. Apps that need access to
 another app's data will be linked to the container.
 
+There might be special cases where multiple apps need access to the same raw storage (filesystem, database).
+This will only allowed for core apps that are vetted by the cloudfleet team.
+
 ## Interfaces to the outside
 
 Every app that exposes a web interface will be assigned a port number starting with 10001. 
